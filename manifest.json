@@ -1,0 +1,12 @@
+{
+    "name" : "Shopify Dark Mode",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description" : "Allows shopify to have a dark mode",
+    "content_scripts" : [
+        {
+            "css": ["style.css"],
+            "matches" : ["https://*/*"]
+        }
+    ]
+}
